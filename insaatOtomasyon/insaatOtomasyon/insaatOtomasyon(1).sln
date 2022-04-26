@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "insaatOtomasyon", "insaatOtomasyon\insaatOtomasyon.csproj", "{877D8DFC-1E97-4C67-A83C-D75AEC5D5F4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{877D8DFC-1E97-4C67-A83C-D75AEC5D5F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877D8DFC-1E97-4C67-A83C-D75AEC5D5F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877D8DFC-1E97-4C67-A83C-D75AEC5D5F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877D8DFC-1E97-4C67-A83C-D75AEC5D5F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D01A0116-4B05-41EE-A1AA-2BEB83094BF7}
+	EndGlobalSection
+EndGlobal

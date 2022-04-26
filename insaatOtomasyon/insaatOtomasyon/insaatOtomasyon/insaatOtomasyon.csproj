@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{877D8DFC-1E97-4C67-A83C-D75AEC5D5F4B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>insaatOtomasyon</RootNamespace>
+    <AssemblyName>insaatOtomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BölgeKaydi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BölgeKaydi.Designer.cs">
+      <DependentUpon>BölgeKaydi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaturaGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaturaGiris.Designer.cs">
+      <DependentUpon>FaturaGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirmaKaydi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirmaKaydi.Designer.cs">
+      <DependentUpon>FirmaKaydi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirmaRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirmaRapor.Designer.cs">
+      <DependentUpon>FirmaRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="girisAnimasyon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="girisAnimasyon.Designer.cs">
+      <DependentUpon>girisAnimasyon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MalzemeKaydi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MalzemeKaydi.Designer.cs">
+      <DependentUpon>MalzemeKaydi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menü.Designer.cs">
+      <DependentUpon>Menü.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdemeTakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdemeTakip.Designer.cs">
+      <DependentUpon>OdemeTakip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelKaydi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelKaydi.Designer.cs">
+      <DependentUpon>PersonelKaydi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sqlBaglantisi.cs" />
+    <EmbeddedResource Include="BölgeKaydi.resx">
+      <DependentUpon>BölgeKaydi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaturaGiris.resx">
+      <DependentUpon>FaturaGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmaKaydi.resx">
+      <DependentUpon>FirmaKaydi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmaRapor.resx">
+      <DependentUpon>FirmaRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="girisAnimasyon.resx">
+      <DependentUpon>girisAnimasyon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MalzemeKaydi.resx">
+      <DependentUpon>MalzemeKaydi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menü.resx">
+      <DependentUpon>Menü.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdemeTakip.resx">
+      <DependentUpon>OdemeTakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelKaydi.resx">
+      <DependentUpon>PersonelKaydi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
